@@ -10,6 +10,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .animate-gradient {
+            background-size: 200% auto;
+            animation: gradient 3s linear infinite;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+    </style>
 </head>
 
 <body class="font-[Outfit]">
@@ -112,58 +130,134 @@
         </div>
     </section>
     <!-- services section -->
-    <section class="lg:px-20 px-4 py-10 bg-[#0b020e]">
-        <div>
-            <div>
-                <h6 class="md:text-4xl text-xl text-[#f6bf22] font-medium text-center mb-4">SERVICES WE OFFER</h6>
-                <p class="text-[#dbdbdb] font-light md:text-base text-xs text-center text-balance">We Offer on Demand Solutions top our Coustomers with trending & emerging technologies and with unique features to stay ahead in the market up to the mark</p>
+    <section class="lg:px-20 px-4 py-8 relative overflow-hidden">
+        <!-- Intense Dark Overlay to make glass cards pop -->
+        <div class="absolute inset-0 bg-[#0b020e]/90 -z-10"></div>
+        
+        <div class="relative z-10 text-center">
+            <div class="mb-10">
+                <h6 class="md:text-3xl text-xl text-[#f6bf22] font-medium text-center mb-2">SERVICES WE OFFER</h6>
+                <p class="text-black font-light md:text-lg text-sm max-w-3xl mx-auto leading-relaxed opacity-80">
+                    Unlocking innovation with top-tier on-demand solutions. We leverage trending and emerging technologies to keep your business ahead of the competition.
+                </p>
             </div>
-            <div class="lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid sm:gap-8 gap-4 mt-10">
-                <div class="md:min-h-[235px] min-h-[200px]">
-                    <div class="border border-[#384c60] p-6 rounded-[40px] shadow-[0_0_8px_0_#00000059] hover:shadow-none transition-all h-full duration-300">
-                        <a href="#">
-                            <h6 class="md:text-2xl text-lg text-white font-medium mb-4 ">Custom Software Development</h6>
-                            <p class="text-[#dbdbdb] font-light md:text-base text-sm ">Create custom software tailored for your unique needs, including front-end, and core back-end technology..</p>
+            
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 text-start">
+                <div class="group relative block h-full">
+                    <div class="relative glass-card p-10 rounded-lg h-full flex flex-col transition-all duration-500 hover:border-[#f6bf22]/30 hover:-translate-y-3 hover:shadow-[0_20px_40px_-15px_rgba(246,191,34,0.3)]">
+                        <div class="mb-8 size-14 bg-[#f6bf22]/10 rounded-full flex items-center justify-center group-hover:bg-[#f6bf22] transition-all duration-500 group-hover:rotate-[10deg] shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-[#f6bf22] group-hover:text-black transition-colors duration-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                            </svg>
+                        </div>
+                        <h3 class="2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-base text-black font-bold mb-5 group-hover:text-[#f6bf22] transition-colors duration-300">Custom Software Development</h3>
+                        <p class="text-black font-light md:text-base grow text-sm leading-relaxed mb-8">
+                            Engineered for your business. We build robust, scalable custom software solutions including advanced front-end and core back-end systems.
+                        </p>
+                        <a href="#" class="mt-auto flex items-center text-[#f6bf22] font-semibold text-sm group/link">
+                            <span class="border-b-2 border-transparent group-hover/link:border-[#f6bf22] transition-all duration-300">Explore Solution</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-2 transition-transform duration-300 group-hover/link:translate-x-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
                         </a>
                     </div>
                 </div>
-                <div class="md:min-h-[235px] min-h-[200px]">
-                    <div class="border border-[#384c60] p-6 rounded-[40px] shadow-[0_0_8px_0_#00000059] hover:shadow-none transition-all h-full duration-300">
-                        <a href="#">
-                        <h6 class="md:text-2xl text-lg text-white font-medium mb-4">QA andTesting</h6>
-                        <p class="text-[#dbdbdb] font-light md:text-base text-sm">Make your technology bulletproof, with manual and automated testing.</p>
+                <div class="group relative block h-full">
+                    <div class="relative glass-card p-10 rounded-lg h-full flex flex-col transition-all duration-500 hover:border-[#f6bf22]/30 hover:-translate-y-3 hover:shadow-[0_20px_40px_-15px_rgba(246,191,34,0.3)]">
+                        <div class="mb-8 size-14 bg-[#f6bf22]/10 rounded-full flex items-center justify-center group-hover:bg-[#f6bf22] transition-all duration-500 group-hover:rotate-[10deg] shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-[#f6bf22] group-hover:text-black transition-colors duration-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                            </svg>
+                        </div>
+                        <h3 class="2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-base text-black font-bold mb-5 group-hover:text-[#f6bf22] transition-colors duration-300">QA and Testing</h3>
+                        <p class="text-black font-light md:text-base grow text-sm leading-relaxed mb-8">
+                            Ensuring your technology is bulletproof. Our experts provide rigorous manual and automated testing to guarantee quality and performance.
+                        </p>
+                        <a href="#" class="mt-auto flex items-center text-[#f6bf22] font-semibold text-sm group/link">
+                            <span class="border-b-2 border-transparent group-hover/link:border-[#f6bf22] transition-all duration-300">Explore Solution</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-2 transition-transform duration-300 group-hover/link:translate-x-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
                         </a>
                     </div>
                 </div>
-                <div class="md:min-h-[235px] min-h-[200px]">
-                    <div class="border border-[#384c60] p-6 rounded-[40px] shadow-[0_0_8px_0_#00000059] hover:shadow-none transition-all h-full duration-300">
-                        <a href="#">
-                        <h6 class="md:text-2xl text-lg text-white font-medium mb-4">AI and Data Science</h6>
-                        <p class="text-[#dbdbdb] font-light md:text-base text-sm">Use leading AI, machine learning, and data engineering technologies to unlock business value.</p>
+                <div class="group relative block h-full">
+    
+                    <div class="relative glass-card p-10 rounded-lg h-full flex flex-col transition-all duration-500 hover:border-[#f6bf22]/30 hover:-translate-y-3 hover:shadow-[0_20px_40px_-15px_rgba(246,191,34,0.3)]">
+                        <div class="mb-8 size-14 bg-[#f6bf22]/10 rounded-full flex items-center justify-center group-hover:bg-[#f6bf22] transition-all duration-500 group-hover:rotate-[10deg] shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-[#f6bf22] group-hover:text-black transition-colors duration-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                            </svg>
+                        </div>
+                        <h3 class="2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-base text-black font-bold mb-5 group-hover:text-[#f6bf22] transition-colors duration-300">AI and Data Science</h3>
+                        <p class="text-black font-light md:text-base grow text-sm leading-relaxed mb-8">
+                            Unlocking business value through intelligence. We use cutting-edge AI, machine learning, and data engineering to drive growth.
+                        </p>
+                        <a href="#" class="mt-auto flex items-center text-[#f6bf22] font-semibold text-sm group/link">
+                            <span class="border-b-2 border-transparent group-hover/link:border-[#f6bf22] transition-all duration-300">Explore Solution</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-2 transition-transform duration-300 group-hover/link:translate-x-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
                         </a>
                     </div>
                 </div>
-                <div class="md:min-h-[235px] min-h-[200px]">
-                    <div class="border border-[#384c60] p-6 rounded-[40px] shadow-[0_0_8px_0_#00000059] hover:shadow-none transition-all h-full duration-300">
-                        <a href="#">
-                        <h6 class="md:text-2xl text-lg text-white font-medium mb-4">Mobile App Development</h6>
-                        <p class="text-[#dbdbdb] font-light md:text-base text-sm">Build performant, scalable, and secure mobile applications for iOS and Android devices.</p>
+                <div class="group relative block h-full">
+                    <div class="relative glass-card p-10 rounded-lg h-full flex flex-col transition-all duration-500 hover:border-[#f6bf22]/30 hover:-translate-y-3 hover:shadow-[0_20px_40px_-15px_rgba(246,191,34,0.3)]">
+                        <div class="mb-8 size-14 bg-[#f6bf22]/10 rounded-full flex items-center justify-center group-hover:bg-[#f6bf22] transition-all duration-500 group-hover:rotate-[10deg] shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-[#f6bf22] group-hover:text-black transition-colors duration-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                            </svg>
+                        </div>
+                        <h3 class="2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-base text-black font-bold mb-5 group-hover:text-[#f6bf22] transition-colors duration-300">Mobile App Development</h3>
+                        <p class="text-black font-light md:text-base grow text-sm leading-relaxed mb-8">
+                            Delivering seamless mobile experiences. We build performant, scalable, and highly secure applications for both iOS and Android.
+                        </p>
+                        <a href="#" class="mt-auto flex items-center text-[#f6bf22] font-semibold text-sm group/link">
+                            <span class="border-b-2 border-transparent group-hover/link:border-[#f6bf22] transition-all duration-300">Explore Solution</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-2 transition-transform duration-300 group-hover/link:translate-x-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
                         </a>
                     </div>
                 </div>
-                <div class="md:min-h-[235px] min-h-[200px]">
-                    <div class="border border-[#384c60] p-6 rounded-[40px] shadow-[0_0_8px_0_#00000059] hover:shadow-none transition-all h-full duration-300">
-                        <a href="#">
-                        <h6 class="md:text-2xl text-lg text-white font-medium mb-4">UX/UI Design</h6>
-                        <p class="text-[#dbdbdb] font-light md:text-base text-sm">We create high-performance iOS , Android , cross-platform applications  with responsive web solutions that deliver exceptional user experiences.</p>
+                <div class="group relative block h-full">
+    
+                    <div class="relative glass-card p-10 rounded-lg h-full flex flex-col transition-all duration-500 hover:border-[#f6bf22]/30 hover:-translate-y-3 hover:shadow-[0_20px_40px_-15px_rgba(246,191,34,0.3)]">
+                        <div class="mb-8 size-14 bg-[#f6bf22]/10 rounded-full flex items-center justify-center group-hover:bg-[#f6bf22] transition-all duration-500 group-hover:rotate-[10deg] shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-[#f6bf22] group-hover:text-black transition-colors duration-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.127Zm9.94-1.583a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.127Zm2.28-3.923a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.127Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.125 2.25a.75.75 0 0 0-1.5 0v1.5a.75.75 0 0 0 1.5 0v-1.5ZM5.25 6a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5H5.25ZM2.25 10.125a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5H2.25Z" />
+                            </svg>
+                        </div>
+                        <h3 class="2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-base text-black font-bold mb-5 group-hover:text-[#f6bf22] transition-colors duration-300">UX/UI Design</h3>
+                        <p class="text-black font-light md:text-base grow text-sm leading-relaxed mb-8">
+                            Aesthetics meets functionality. We create high-performance, responsive designs that deliver exceptional and intuitive user experiences.
+                        </p>
+                        <a href="#" class="mt-auto flex items-center text-[#f6bf22] font-semibold text-sm group/link">
+                            <span class="border-b-2 border-transparent group-hover/link:border-[#f6bf22] transition-all duration-300">Explore Solution</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-2 transition-transform duration-300 group-hover/link:translate-x-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
                         </a>
                     </div>
                 </div>
-                <div class="md:min-h-[235px] min-h-[200px]">
-                    <div class="border border-[#384c60] p-6 rounded-[40px] shadow-[0_0_8px_0_#00000059] hover:shadow-none transition-all h-full duration-300">
-                        <a href="#">
-                        <h6 class="md:text-2xl text-lg text-white font-medium mb-4 ">Platform and Infrastructure</h6>
-                        <p class="text-[#dbdbdb] font-light md:text-base text-sm " >Ensure applications are secure, fault tolerant and highly available with our DevOps and Security engineers.</p>
+                <div class="group relative block h-full">
+    
+                    <div class="relative glass-card p-10 rounded-lg h-full flex flex-col transition-all duration-500 hover:border-[#f6bf22]/30 hover:-translate-y-3 hover:shadow-[0_20px_40px_-15px_rgba(246,191,34,0.3)]">
+                    <div class="mb-8 size-14 bg-[#f6bf22]/10 rounded-full flex items-center justify-center group-hover:bg-[#f6bf22] transition-all duration-500 group-hover:rotate-[10deg] shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 text-[#f6bf22] group-hover:text-black transition-colors duration-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15z" />
+                            </svg>
+                        </div>
+                        <h3 class="2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-base text-black font-bold mb-5 group-hover:text-[#f6bf22] transition-colors duration-300">Platform and Infrastructure</h3>
+                        <p class="text-black font-light md:text-base grow text-sm leading-relaxed mb-8">
+                            Fault-tolerant and highly available. Our DevOps and security engineers ensure your applications are secure, stable, and ready for scale.
+                        </p>
+                        <a href="#" class="mt-auto flex items-center text-[#f6bf22] font-semibold text-sm group/link">
+                            <span class="border-b-2 border-transparent group-hover/link:border-[#f6bf22] transition-all duration-300">Explore Solution</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-2 transition-transform duration-300 group-hover/link:translate-x-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -171,11 +265,11 @@
         </div>
     </section>
     <!-- features section -->
-    <section class="lg:px-20 px-4 py-8 ">
+    <section class="lg:px-20 px-4 py-8">
         <div>
             <div class="text-center">
-                <h6 class="font-semibold md:text-lg text-sm mb-2">FEATURED WORK</h6>
-                <p class="md:text-2xl text-lg text-black font-light text-center text-balance mb-4">Discover how we <span
+                <h6 class="font-semibold md:text-3xl text-xl mb-2">FEATURED WORK</h6>
+                <p class="md:text-lg text-sm mx-auto text-black font-light text-center text-balance mb-4">Discover how we <span
                         class="text-[#137ec2] font-semibold">transform visions into digital realities ,</span> <br>
                     creating success stories that redefine industry benchmarks</p>
             </div>
@@ -203,16 +297,16 @@
                                     </div>
                                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
                                         <div>
-                                            <h6 class="font-bold xl:text-2xl md:text-lg">50%</h6>
-                                            <p class="xl:text-lg md:text-sm font-light">Reduction in energy bills </p>
+                                            <h6 class="font-bold xl:text-xl lg:text-xl text-lg">50%</h6>
+                                            <p class="xl:text-base md:text-sm font-light">Reduction in energy bills </p>
                                         </div>
                                         <div>
-                                            <h6 class="font-bold xl:text-2xl md:text-lg">15 times</h6>
-                                            <p class="xl:text-lg md:text-sm font-light">More engagement triggered</p>
+                                            <h6 class="font-bold xl:text-xl lg:text-xl text-lg">15 times</h6>
+                                            <p class="xl:text-base md:text-sm font-light">More engagement triggered</p>
                                         </div>
                                         <div>
-                                            <h6 class="font-bold xl:text-2xl md:text-lg">32 zones</h6>
-                                            <p class="xl:text-lg md:text-sm font-light">facilitated via mobile app,
+                                            <h6 class="font-bold xl:text-xl lg:text-xl  md:text-lg">32 zones</h6>
+                                            <p class="xl:text-base md:text-sm font-light">facilitated via mobile app,
                                                 covering the entire home</p>
                                         </div>
                                     </div>
@@ -248,16 +342,16 @@
                                     </div>
                                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
                                         <div>
-                                            <h6 class="font-bold xl:text-2xl md:text-lg">50%</h6>
-                                            <p class="xl:text-lg md:text-sm font-light">Reduction in energy bills </p>
+                                            <h6 class="font-bold xl:text-xl lg:text-xl  md:text-lg">50%</h6>
+                                            <p class="xl:text-base md:text-sm font-light">Reduction in energy bills </p>
                                         </div>
                                         <div>
-                                            <h6 class="font-bold xl:text-2xl md:text-lg">15 times</h6>
-                                            <p class="xl:text-lg md:text-sm font-light">More engagement triggered</p>
+                                            <h6 class="font-bold xl:text-xl lg:text-xl  md:text-lg">15 times</h6>
+                                            <p class="xl:text-base md:text-sm font-light">More engagement triggered</p>
                                         </div>
                                         <div>
-                                            <h6 class="font-bold xl:text-2xl md:text-lg">32 zones</h6>
-                                            <p class="xl:text-lg md:text-sm font-light">facilitated via mobile app,
+                                            <h6 class="font-bold xl:text-xl lg:text-xl  md:text-lg">32 zones</h6>
+                                            <p class="xl:text-base md:text-sm font-light">facilitated via mobile app,
                                                 covering the entire home</p>
                                         </div>
                                     </div>
@@ -274,10 +368,10 @@
                 </div>
                 <div class="">
                     <div
-                        class="swiper-button-prev !top-auto bottom-3 md:!right-20 !right-14 !left-auto after:!text-sm font-bold !text-white bg-black md:!w-12 md:!h-12 !w-8 !h-8 rounded-full">
+                        class="swiper-button-prev !top-auto bottom-3 md:!right-20 !right-14 !left-auto after:!text-[10px] font-bold !text-white bg-black border border-white md:!size-10 !size-8 rounded-full">
                     </div>
                     <div
-                        class="swiper-button-next !top-auto bottom-3 !right-4 !left-auto after:!text-sm font-bold !text-white bg-black md:!w-12 md:!h-12 !w-8 !h-8 rounded-full">
+                        class="swiper-button-next  !top-auto bottom-3 !right-4 !left-auto after:!text-[10px] font-bold !text-white bg-black border border-white md:!size-10 !size-8 rounded-full">
                     </div>
                 </div>
             </div>
@@ -481,7 +575,7 @@
                 </div>
 
             </div>
-            <div class="pb-20">
+            <div class="">
                 <div class="swiper solutionSwiper2 flex md:pt-12! pt-5! w-full overflow-visible!">
                     <div class="w-full flex swiper-wrapper" style="transition-duration: 0ms; transition-delay: 0ms;"
                         id="swiper-wrapper-399857be044ca4da" aria-live="polite">
@@ -600,12 +694,12 @@
                         </div>
 
                     </div>
-                    <div class="">
+                    <div class="mt-10 discover_nav flex justify-center items-center gap-3">
                         <div
-                            class="swiper-button-prev !top-auto bottom-3 md:!right-20 !right-14 !left-auto after:!text-sm font-bold !text-white bg-black md:!w-12 md:!h-12 !w-8 !h-8 rounded-full">
+                            class="swiper-button-prev !static !top-auto bottom-3 md:!right-20 !right-14 !left-auto after:!text-[10px] font-bold !text-white bg-black md:!w-12 md:!h-12 !w-8 !h-8 rounded-full">
                         </div>
                         <div
-                            class="swiper-button-next !top-auto bottom-3 !right-4 !left-auto after:!text-sm font-bold !text-white bg-black md:!w-12 md:!h-12 !w-8 !h-8 rounded-full">
+                            class="swiper-button-next !static !top-auto bottom-3 !right-4 !left-auto after:!text-[10px] font-bold !text-white bg-black md:!w-12 md:!h-12 !w-8 !h-8 rounded-full">
                         </div>
                     </div>
                 </div>
@@ -615,9 +709,9 @@
     <!-- excellence section -->
     <section class="lg:px-20 px-4 py-8 bg-[#137ec2]">
         <div class="flex flex-wrap">
-            <div class="md:w-3/5 w-full flex ">
+            <div class="md:w-3/5 w-full flex h-full">
                 <div class="flex flex-wrap md:border-r border-[#c7c7c747]">
-                    <div class="md:w-1/2 w-full pr-4">
+                    <div class="w-full pr-4">
                         <div>
                             <h6 class="md:text-4xl text-xl md:leading-[48px] font-medium text-white"><span
                                     class="text-[#f6bf22] ">Excellence .</span> <br>Our minimum bar for client delivery.
@@ -626,7 +720,7 @@
                                 achievements showcase our quality and commitment to client success.</p>
                         </div>
                         <div
-                            class="py-1 flex w-fit justify-start md:justify-center border-b-2 border-[#f6bf22] group mt-14">
+                            class="py-1 flex w-fit justify-start md:justify-center border-b-2 border-[#f6bf22] group mt-5">
                             <a href="#"
                                 class="flex tems-center gap-2 text-sm md:text-base text-[#f6bf22] font-medium transition-all duration-300 group-hover:translate-x-3">
                                 <span>Everything We Do</span>
@@ -639,10 +733,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="md:w-1/2 w-full ">
-                        <div class="flex flex-col space-y-6 items-center justify-center ">
-                            <div class="relative w-[250px] h-[250px]">
-
+                    <div class="w-full mt-10">
+                        <div class="flex flex-wrap space-y-6 items-center">
+                            <div class="relative w-[200px] h-[200px]">
                                 <div
                                     class="absolute inset-0 animate-spin-slow rounded-full flex items-center justify-center text-[#b5b5b5]">
                                     <svg class="w-full h-full" viewBox="0 0 200 200">
@@ -660,13 +753,13 @@
 
                                 <div
                                     class="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-                                    <div class="text-[40px] font-bold">1,250+</div>
-                                    <div class="text-lg font-semibold leading-tight">
+                                    <div class="text-2xl font-bold">1,250+</div>
+                                    <div class="text-sm font-semibold leading-tight">
                                         projects<br>delivered
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative w-[250px] h-[250px]">
+                            <div class="relative w-[200px] h-[200px]">
 
                                 <div
                                     class="absolute inset-0 animate-spin-slow rounded-full flex items-center justify-center text-[#b5b5b5]">
@@ -685,13 +778,13 @@
 
                                 <div
                                     class="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-                                    <div class="text-[40px] font-bold">130+</div>
-                                    <div class="text-lg font-semibold leading-tight">
+                                    <div class="text-2xl font-bold">130+</div>
+                                    <div class="text-sm font-semibold leading-tight">
                                         Industry<br>sectors
                                     </div>
                                 </div>
                             </div>
-                            <div class="relative w-[250px] h-[250px]">
+                            <div class="relative w-[200px] h-[200px]">
 
                                 <div
                                     class="absolute inset-0 animate-spin-slow rounded-full flex items-center justify-center text-[#b5b5b5]">
@@ -710,8 +803,8 @@
 
                                 <div
                                     class="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-                                    <div class="text-[40px] font-bold">4.9/5</div>
-                                    <div class="text-lg font-semibold leading-tight">
+                                    <div class="text-2xl font-bold">4.9/5</div>
+                                    <div class="text-sm font-semibold leading-tight">
                                         client rating
                                     </div>
                                 </div>

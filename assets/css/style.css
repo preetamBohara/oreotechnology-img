@@ -638,6 +638,10 @@
     width: calc(var(--spacing) * 12);
     height: calc(var(--spacing) * 12);
   }
+   .size-14 {
+    width: calc(var(--spacing) * 14);
+    height: calc(var(--spacing) * 14);
+  }
   .size-32 {
     width: calc(var(--spacing) * 32);
     height: calc(var(--spacing) * 32);
@@ -819,6 +823,9 @@
   }
   .w-\[250px\] {
     width: 250px;
+  }
+  .w-\[200px\] {
+    width: 200px;
   }
   .w-\[400px\] {
     width: 400px;
@@ -5297,4 +5304,14 @@
       --tw-content: "";
     }
   }
+}
+.swiper-navigation-icon {
+    width: 22px !important;
+    height: 22px !important;
+}
+.discover_nav .swiper-button-prev{
+   position: static !important;
+}
+.discover_nav .swiper-button-next{
+   position: static !important;
 }
