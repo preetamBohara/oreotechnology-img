@@ -707,6 +707,9 @@
   .h-\[80px\] {
     height: 80px;
   }
+  .h-\[104px\] {
+    height: 104px;
+  }
   .h-\[200px\] {
     height: 200px;
   }
@@ -2410,6 +2413,7 @@
       }
     }
   }
+  
   .group-hover\:scale-y-100 {
     &:is(:where(.group):hover *) {
       @media (hover: hover) {
@@ -5314,4 +5318,7 @@
 }
 .discover_nav .swiper-button-next{
    position: static !important;
+}
+.gradient-bg{
+  background: linear-gradient(293deg, #6596FD 40%, #CBA8FF 100%, #A575EC 100%);
 }

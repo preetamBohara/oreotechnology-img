@@ -707,11 +707,11 @@
         </div>
     </section>
     <!-- excellence section -->
-    <section class="lg:px-20 px-4 py-8 bg-[#137ec2]">
+    <section class="lg:px-20 px-4 py-8 bg-[#137ec2] overflow-hidden">
         <div class="flex flex-wrap">
-            <div class="md:w-3/5 w-full flex h-full">
-                <div class="flex flex-wrap md:border-r border-[#c7c7c747]">
-                    <div class="w-full pr-4">
+            <div class="md:w-1/2 w-full flex md:border-r border-[#c7c7c747] md:pr-20">
+                <div class="flex flex-wrap">
+                    <div class="w-full h-full">
                         <div>
                             <h6 class="md:text-4xl text-xl md:leading-[48px] font-medium text-white"><span
                                     class="text-[#f6bf22] ">Excellence .</span> <br>Our minimum bar for client delivery.
@@ -733,8 +733,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="w-full mt-10">
-                        <div class="flex flex-wrap space-y-6 items-center">
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full md:mt-0 mt-6 ">
+                <div class="w-full h-full">
+                        <div class="flex flex-wrap space-y-6 items-center justify-center">
                             <div class="relative w-[200px] h-[200px]">
                                 <div
                                     class="absolute inset-0 animate-spin-slow rounded-full flex items-center justify-center text-[#b5b5b5]">
@@ -810,68 +813,82 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div>            
             </div>
-            <div class="md:w-2/5 w-full md:ps-6 md:mt-0 mt-6">
-                <div class="grid grid-cols-2 gap-y-6 gap-x-4 ">
-                    <div class="flex flex-col items-center justify-center">
-                        <div class="w-[115px] mb-10">
-                            <img src="assets/img/exe-1.svg" alt="">
+       <div class="w-full md:pt-0 pt-12">
+        <div class="swiper excellenceSwiper2 flex md:pt-12! !pt-5 w-full overflow-visible!">
+                    <div class="w-full flex swiper-wrapper" >
+                        <div class="swiper-slide">
+                                <div class="flex flex-col items-center justify-center">
+                                    <div class="w-[104px] h-[104px] mb-5">
+                                        <img src="assets/img/exe-1.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
+                                            Companies 2025</h6>
+                                    </div>
+                                </div>
+                                 </div>
+                                      <div class="swiper-slide">
+                                <div class="flex flex-col items-center justify-center">
+                                    <div class="w-[104px] h-[104px] mb-5">
+                                        <img src="assets/img/exe-2.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
+                                            Companies 2025</h6>
+                                    </div>
+                                </div>
+                                  </div>
+                                       <div class="swiper-slide">
+                                <div class="flex flex-col items-center justify-center">
+                                    <div class="w-[104px] h-[104px] mb-5">
+                                        <img src="assets/img/exe-3.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
+                                            Companies 2025</h6>
+                                    </div>
+                                </div>
+                                    </div>
+                               <div class="swiper-slide">     
+                                <div class="flex flex-col items-center justify-center">
+                                    <div class="w-[104px] h-[104px] mb-5">
+                                        <img src="assets/img/exe-4.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
+                                            Companies 2025</h6>
+                                    </div>
+                                </div>
+                                 </div>
+                                <div class="swiper-slide">  
+                                <div class="flex flex-col items-center justify-center">
+                                    <div class="w-[104px] h-[104px] mb-5">
+                                        <img src="assets/img/exe-5.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
+                                            Companies 2025</h6>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">  
+                                <div class="flex flex-col items-center justify-center">
+                                    <div class="w-[104px] h-[104px] mb-5">
+                                        <img src="assets/img/exe-6.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
+                                            Companies 2025</h6>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-                        <div>
-                            <h6 class="md:text-lg text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
-                                Companies 2025</h6>
-                        </div>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <div class="w-[115px] mb-10">
-                            <img src="assets/img/exe-2.svg" alt="">
-                        </div>
-                        <div>
-                            <h6 class="md:text-lg text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
-                                Companies 2025</h6>
-                        </div>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <div class="w-[115px] mb-10">
-                            <img src="assets/img/exe-3.svg" alt="">
-                        </div>
-                        <div>
-                            <h6 class="md:text-lg text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
-                                Companies 2025</h6>
-                        </div>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <div class="w-[115px] mb-10">
-                            <img src="assets/img/exe-4.svg" alt="">
-                        </div>
-                        <div>
-                            <h6 class="md:text-lg text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
-                                Companies 2025</h6>
-                        </div>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <div class="w-[115px] mb-10">
-                            <img src="assets/img/exe-5.svg" alt="">
-                        </div>
-                        <div>
-                            <h6 class="md:text-lg text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
-                                Companies 2025</h6>
-                        </div>
-                    </div>
-                    <div class="flex flex-col items-center justify-center">
-                        <div class="w-[115px] mb-10">
-                            <img src="assets/img/exe-6.svg" alt="">
-                        </div>
-                        <div>
-                            <h6 class="md:text-lg text-base font-normal text-white opacity-60 text-center">America's Fastest-Growing
-                                Companies 2025</h6>
-                        </div>
-                    </div>
-                </div>
+                    </div>          
+       </div>
             </div>
-        </div>
     </section>
 
     <section class="lg:px-20 px-4 pt-14 pb-8 group/network bg-[linear-gradient(180deg,_#fff_0%,_#eeeffb_100%)]">
@@ -1189,14 +1206,13 @@
         </div>
     </section>
     <!-- end of section -->
-    <section class=" blogsection relative lg:px-20 px-4 bg-[#f5f9ff] overflow-hidden py-14">
-        <div class="w-full">
-
+    <section class="blogsection relative bg-[#f5f9ff]">
+        <div class="w-full lg:px-20 px-4 xl:mx-auto py-12">
             <div class=" text-start w-full flex flex-col items-start">
                 <h3 class="text-[15px] uppercase text-black font-bold md:mb-4 mb-2">BLOG & INSIGHTS</h3>
             </div>
             <div
-                class="flex flex-col md:flex-row gap-5 mb-10 md:mb-28 lg:gap-10 md:items-center justify-center md:justify-between ">
+                class="flex flex-col md:flex-row gap-5 mb-10 lg:gap-10 md:items-center justify-center md:justify-between ">
                 <div>
                     <h2 class="font-medium text-black md:text-[1.4rem]">Explore our <span
                             class="text-[#f6bf22]">insightful
@@ -1219,157 +1235,155 @@
                 </div>
 
             </div>
-
-            <div class="group mb-7">
-                <div
-                    class=" relative md:py-18 md:pr-[50px] md:pl-[70px] transition-all duration-300 md:group-hover:bg-[linear-gradient(293deg,_#6596FD_40%,_#CBA8FF_100%,_#A575EC_100%)]">
-                    <div class="flex flex-col md:flex-row w-full gap-5 md:gap-[60px] ">
-
-                        <div class=" md:w-2/5">
-                            <div
-                                class="md:absolute relative overflow-hidden  md:group-hover:bottom-32 md:h-[190px] transition-all duration-300 md:group-hover:scale-120 md:w-[320px] rounded-md">
-                                <img src="assets/img/blogimg.webp" loading="lazy"
-                                    class="w-full h-full object-cover transition-transform duration-500 " alt="blogimg">
-                            </div>
-                        </div>
-
-                        <div class="flex flex-row gap-10 md:w-3/5 items-center md:justify-between">
-                            <div class="flex flex-col">
-                                <h2 class="md:text-lg md:group-hover:text-white text-black font-medium">
-                                    <a href="#">
-                                        Real-Time Fraud Detection at Scale: <br> Leveraging MLOps for Financial
-                                        Services
-                                    </a>
-                                </h2>
-                                <p class="text-[#6e6e6e] md:group-hover:text-white  text-xs font-normal mb-5">July 14, 2025
-                                    | 80 Views</p>
-                                <div class="flex flex-row gap-3 ">
-                                    <div class="rounded-full w-[38px] h-[38px] overflow-hidden bg-[#F4F7F8]">
-                                        <img src="assets/img/testimonial.jpg" loading="lazy"
-                                            class="w-full h-auto object-cover" alt="blogmen">
-                                    </div>
-                                    <div class="flex rounded-[40px] text-black bg-[#F4F7F8] px-3.5 py-1.5">
-                                        Deepak Sinha
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex items-center justify-center ">
+            <div class="flex w-full flex-col gap-y-8">
+                <div class="group sticky top-[56px] duration-300">
+                    <div
+                        class="relative p-8 transition-all duration-300 shadow-xl rounded-lg gradient-bg">
+                        <div class="flex flex-col md:flex-row w-full gap-5 md:gap-[60px] items-center">
+                            <div class="md:w-2/5">
                                 <div
-                                    class="md:w-[50px] md:h-[50px] h-[40px] w-[40px] rounded-full bg-black md:group-hover:bg-white flex justify-center items-center md:group-hover:text-black text-white">
-                                    <span>
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 24 24" height="1em" width="1em"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="none" d="M0 0h24v24H0V0z"></path>
-                                            <path d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"></path>
-                                        </svg>
-                                    </span>
+                                    class="relative overflow-hidden md:h-[190px] transition-all duration-300 md:group-hover:scale-120 md:w-[320px] rounded-md">
+                                    <img src="assets/img/blogimg.webp" loading="lazy"
+                                        class="w-full h-full object-cover transition-transform duration-500 " alt="blogimg">
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="flex flex-row gap-10 md:w-3/5 w-full items-center justify-between">
+                                <div class="flex flex-col">
+                                    <h2 class="md:text-lg text-white font-medium">
+                                        <a href="#">
+                                            Real-Time Fraud Detection at Scale: <br> Leveraging MLOps for Financial
+                                            Services
+                                        </a>
+                                    </h2>
+                                    <p class="text-white  text-xs font-normal mb-5">July 14, 2025
+                                        | 80 Views</p>
+                                    <div class="flex flex-row gap-3 ">
+                                        <div class="rounded-full w-[38px] h-[38px] overflow-hidden bg-[#F4F7F8]">
+                                            <img src="assets/img/testimonial.jpg" loading="lazy"
+                                                class="w-full h-auto object-cover" alt="blogmen">
+                                        </div>
+                                        <div class="flex rounded-[40px] text-black bg-[#F4F7F8] px-3.5 py-1.5">
+                                            Deepak Sinha
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center ">
+                                    <div
+                                        class="md:w-[50px] md:h-[50px] h-[40px] w-[40px] rounded-full bg-black md:group-hover:bg-white flex justify-center items-center md:group-hover:text-black text-white">
+                                        <span>
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 24 24" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                                <path d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="group mb-7">
-                <div
-                    class=" relative md:py-18 md:pr-[50px] md:pl-[70px] transition-all duration-300 md:group-hover:bg-[linear-gradient(293deg,_#6596FD_40%,_#CBA8FF_100%,_#A575EC_100%)]">
-                    <div class="flex flex-col md:flex-row w-full gap-5 md:gap-[60px] ">
-
-                        <div class=" md:w-2/5">
-                            <div
-                                class="md:absolute relative overflow-hidden md:group-hover:bottom-32 md:h-[190px] transition-all duration-300 md:group-hover:scale-120 md:w-[320px] rounded-md">
-                                <img src="assets/img/blogimg.webp" loading="lazy"
-                                    class="w-full h-full object-cover transition-transform duration-500 " alt="blogimg">
-                            </div>
-                        </div>
-
-                        <div class="flex flex-row gap-10 md:w-3/5 items-center md:justify-between">
-                            <div class="flex flex-col">
-                                <h2 class="md:text-lg md:group-hover:text-white text-black font-medium">
-                                    <a href="#">
-                                        Real-Time Fraud Detection at Scale: <br> Leveraging MLOps for Financial
-                                        Services
-                                    </a>
-                                </h2>
-                                <p class="text-[#6e6e6e] md:group-hover:text-white  text-xs font-normal mb-5">July 14, 2025
-                                    | 80 Views</p>
-                                <div class="flex flex-row gap-3 ">
-                                    <div class="rounded-full w-[38px] h-[38px] overflow-hidden bg-[#F4F7F8]">
-                                        <img src="assets/img/testimonial.jpg" loading="lazy"
-                                            class="w-full h-auto object-cover" alt="blogmen">
-                                    </div>
-                                    <div class="flex rounded-[40px] text-black bg-[#F4F7F8] px-3.5 py-1.5">
-                                        Deepak Sinha
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex items-center justify-center ">
+                <div class="group sticky top-[56px] duration-300">
+                    <div
+                        class="relative p-8 transition-all duration-300 shadow-xl rounded-lg gradient-bg">
+                        <div class="flex flex-col md:flex-row w-full gap-5 md:gap-[60px] items-center">
+                            <div class="md:w-2/5">
                                 <div
-                                    class="md:w-[50px] md:h-[50px] h-[40px] w-[40px] rounded-full bg-black md:group-hover:bg-white flex justify-center items-center md:group-hover:text-black text-white">
-                                    <span>
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 24 24" height="1em" width="1em"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="none" d="M0 0h24v24H0V0z"></path>
-                                            <path d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"></path>
-                                        </svg>
-                                    </span>
+                                    class="relative overflow-hidden  md:h-[190px] transition-all duration-300 md:group-hover:scale-120 md:w-[320px] rounded-md">
+                                    <img src="assets/img/blogimg.webp" loading="lazy"
+                                        class="w-full h-full object-cover transition-transform duration-500 " alt="blogimg">
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="flex flex-row gap-10 md:w-3/5 items-center md:justify-between">
+                                <div class="flex flex-col">
+                                    <h2 class="md:text-lg text-white font-medium">
+                                        <a href="#">
+                                            Real-Time Fraud Detection at Scale: <br> Leveraging MLOps for Financial
+                                            Services
+                                        </a>
+                                    </h2>
+                                    <p class="text-white  text-xs font-normal mb-5">July 14, 2025
+                                        | 80 Views</p>
+                                    <div class="flex flex-row gap-3 ">
+                                        <div class="rounded-full w-[38px] h-[38px] overflow-hidden bg-[#F4F7F8]">
+                                            <img src="assets/img/testimonial.jpg" loading="lazy"
+                                                class="w-full h-auto object-cover" alt="blogmen">
+                                        </div>
+                                        <div class="flex rounded-[40px] text-black bg-[#F4F7F8] px-3.5 py-1.5">
+                                            Deepak Sinha
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center ">
+                                    <div
+                                        class="md:w-[50px] md:h-[50px] h-[40px] w-[40px] rounded-full bg-black md:group-hover:bg-white flex justify-center items-center md:group-hover:text-black text-white">
+                                        <span>
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 24 24" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                                <path d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="group">
-                <div
-                    class=" relative md:py-18 md:pr-[50px] md:pl-[70px] transition-all duration-300 md:group-hover:bg-[linear-gradient(293deg,_#6596FD_40%,_#CBA8FF_100%,_#A575EC_100%)]">
-                    <div class="flex flex-col md:flex-row w-full gap-5 md:gap-[60px] ">
-
-                        <div class=" md:w-2/5">
-                            <div
-                                class="md:absolute relative overflow-hidden  md:group-hover:bottom-32 md:h-[190px] transition-all duration-300 md:group-hover:scale-120 md:w-[320px] rounded-md">
-                                <img src="assets/img/blogimg.webp" loading="lazy"
-                                    class="w-full h-full object-cover transition-transform duration-500 " alt="blogimg">
-                            </div>
-                        </div>
-
-                        <div class="flex flex-row gap-10 md:w-3/5 items-center md:justify-between">
-                            <div class="flex flex-col">
-                                <h2 class="md:text-lg md:group-hover:text-white text-black font-medium">
-                                    <a href="#">
-                                        Real-Time Fraud Detection at Scale: <br> Leveraging MLOps for Financial
-                                        Services
-                                    </a>
-                                </h2>
-                                <p class="md:group-hover:text-white text-[#6e6e6e] text-xs font-normal mb-5">July 14, 2025
-                                    | 80 Views</p>
-                                <div class="flex flex-row gap-3 ">
-                                    <div class="rounded-full w-[38px] h-[38px] overflow-hidden bg-[#F4F7F8]">
-                                        <img src="assets/img/testimonial.jpg" loading="lazy"
-                                            class="w-full h-auto object-cover" alt="blogmen">
-                                    </div>
-                                    <div class="flex rounded-[40px] text-black bg-[#F4F7F8] px-3.5 py-1.5">
-                                        Deepak Sinha
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex items-center justify-center ">
+                <div class="group sticky top-[56px] duration-300">
+                    <div
+                        class="relative p-8 transition-all duration-300 shadow-xl rounded-lg gradient-bg">
+                        <div class="flex flex-col md:flex-row w-full gap-5 md:gap-[60px] items-center">
+                            <div class="md:w-2/5">
                                 <div
-                                    class="md:w-[50px] md:h-[50px] h-[40px] w-[40px] rounded-full bg-black md:group-hover:bg-white flex justify-center items-center md:group-hover:text-black text-white">
-                                    <span>
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 24 24" height="1em" width="1em"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="none" d="M0 0h24v24H0V0z"></path>
-                                            <path d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"></path>
-                                        </svg>
-                                    </span>
+                                    class="relative overflow-hidden  md:h-[190px] transition-all duration-300 md:group-hover:scale-120 md:w-[320px] rounded-md">
+                                    <img src="assets/img/blogimg.webp" loading="lazy"
+                                        class="w-full h-full object-cover transition-transform duration-500 " alt="blogimg">
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="flex flex-row gap-10 md:w-3/5 items-center md:justify-between">
+                                <div class="flex flex-col">
+                                    <h2 class="md:text-lg text-white font-medium">
+                                        <a href="#">
+                                            Real-Time Fraud Detection at Scale: <br> Leveraging MLOps for Financial
+                                            Services
+                                        </a>
+                                    </h2>
+                                    <p class="text-white text-xs font-normal mb-5">July 14, 2025
+                                        | 80 Views</p>
+                                    <div class="flex flex-row gap-3 ">
+                                        <div class="rounded-full w-[38px] h-[38px] overflow-hidden bg-[#F4F7F8]">
+                                            <img src="assets/img/testimonial.jpg" loading="lazy"
+                                                class="w-full h-auto object-cover" alt="blogmen">
+                                        </div>
+                                        <div class="flex rounded-[40px] text-black bg-[#F4F7F8] px-3.5 py-1.5">
+                                            Deepak Sinha
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-center ">
+                                    <div
+                                        class="md:w-[50px] md:h-[50px] h-[40px] w-[40px] rounded-full bg-black md:group-hover:bg-white flex justify-center items-center md:group-hover:text-black text-white">
+                                        <span>
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 24 24" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                                <path d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1529,6 +1543,43 @@
                 },
                 1400: {
                     slidesPerView: 6,
+                    // spaceBetween: 20,
+                },
+            },
+        });
+          const excellenSwiperLogo = new Swiper(".excellenceSwiper2", {
+            loop: true,
+            speed: 10000,
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            pagination: false,
+            autoplay: {
+                delay: 0,
+                enabled: true
+            },
+            allowTouchMove: false,
+            loopedSlides: 50,
+            grabCursor: false,
+            centeredSlides: false,
+            breakpoints: {
+                0: {
+                    slidesPerView: 2,
+                    // spaceBetween: 20,
+                },
+                576: {
+                    slidesPerView: 2,
+                    // spaceBetween: 25,
+                },
+                768: {
+                    slidesPerView: 3,
+                    // spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    // spaceBetween: 35,
+                },
+                1400: {
+                    slidesPerView: 4,
                     // spaceBetween: 20,
                 },
             },
